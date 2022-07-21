@@ -4,20 +4,21 @@
 div{
     background-color: #86affa;
     text-align: center;
+    padding-top: 70px;
 }
 
 #Nombre{
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 23%;
 }
 
 /* foto de perfil */
 @media(min-width:576px){
     #FotodePerfil{
         position: absolute;
-        width: 15%;
-        border-radius: 15%;
-        box-shadow: 3px 3px 8px rgb(88, 88, 88);
+        width: 12%;
+        border-radius: 20%;
+        box-shadow: 3px 3px 5px rgb(66, 66, 66);
         left: 3%;
         top: 600px;
     }
@@ -29,6 +30,6 @@ div{
         border-radius: 15%;
         box-shadow: 3px 3px 8px rgb(88, 88, 88);
         left: 35.4%;
-        top: 520px;
+        top: 580px;
     }
 }
