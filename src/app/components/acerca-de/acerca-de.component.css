@@ -16,7 +16,7 @@ div{
     #FotodePerfil{
         position: absolute;
         width: 15%;
-        border-radius: 100%;
+        border-radius: 15%;
         box-shadow: 3px 3px 8px rgb(88, 88, 88);
         left: 3%;
         top: 600px;
@@ -26,7 +26,7 @@ div{
     #FotodePerfil{
         position: absolute;
         width: 30%;
-        border-radius: 100%;
+        border-radius: 15%;
         box-shadow: 3px 3px 8px rgb(88, 88, 88);
         left: 35.4%;
         top: 520px;
