@@ -1,10 +1,8 @@
 div{
     background-color: #86affa;
-    background-image: linear-gradient(102deg, #86affa 44%, #a129b1 99%);
-;
-    
+    background-image: linear-gradient(102deg, #86affa 28%, #a129b1 99%);;   
 }
 app-social{
     float: right;
-    margin-top: 6px;
+    justify-content: space-between;
 }
