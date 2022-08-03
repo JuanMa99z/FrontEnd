@@ -20,7 +20,7 @@ div{
         border-radius: 20%;
         box-shadow: 3px 3px 5px rgb(66, 66, 66);
         left: 3%;
-        top: 600px;
+        top: 580px;
     }
 }
 @media(max-width:575px){
