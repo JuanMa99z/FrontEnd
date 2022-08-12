@@ -1,5 +1,5 @@
 .row{
-    padding: 20px;
+    padding: 10px;
 }
 div{
     background-color: #5851b5;
@@ -11,16 +11,15 @@ div{
     font-weight: bold;
     margin-top: 23%;
 }
-
 /* foto de perfil */
 @media(min-width:576px){
     #FotodePerfil{
         position: absolute;
-        width: 11%;
+        width: 10%;
         border-radius: 20%;
         box-shadow: 3px 3px 5px rgb(66, 66, 66);
-        left: 3%;
-        top: 580px;
+        left: 5%;
+        top: 720px;
     }
 }
 @media(max-width:575px){
@@ -30,6 +29,7 @@ div{
         border-radius: 15%;
         box-shadow: 3px 3px 8px rgb(88, 88, 88);
         left: 35.4%;
-        top: 580px;
+        top: 240px;
     }
+    
 }
