@@ -1,4 +1,4 @@
-package com.portfolio.mgb;
+/*package com.portfolio.mgb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,9 +18,22 @@ public class MgbApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("http://localhost:4200").allowedMethods("*").allowedHeaders("*");
+				registry.addMapping("/**").allowedOrigins("https://approyecto-edfc3.web.app").allowedMethods("*").allowedHeaders("*");
 			}
 		};
+	}
+
+}*/
+package com.portfolio.mgb;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MgbApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MgbApplication.class, args);
 	}
 
 }

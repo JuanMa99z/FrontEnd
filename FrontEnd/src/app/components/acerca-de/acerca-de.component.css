@@ -7,19 +7,18 @@ div{
     padding-top: 70px;
 }
 
-#Nombre{
-    font-weight: bold;
-    margin-top: 23%;
+p#Nombre{
+    font-weight: 800;
+    margin-top: 20px;
 }
 /* foto de perfil */
 @media(min-width:576px){
     #FotodePerfil{
-        position: absolute;
-        width: 10%;
+        position: static;
+        width: 69%;
         border-radius: 20%;
         box-shadow: 3px 3px 5px rgb(66, 66, 66);
         left: 5%;
-        top: 720px;
     }
 }
 @media(max-width:575px){
@@ -29,7 +28,7 @@ div{
         border-radius: 15%;
         box-shadow: 3px 3px 8px rgb(88, 88, 88);
         left: 35.4%;
-        top: 240px;
+        top: 220px;
     }
     
 }
