@@ -4,7 +4,7 @@
 div{
     background-color: #5851b5;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 55px;
 }
 
 p#Nombre{
@@ -14,16 +14,21 @@ p#Nombre{
 /* foto de perfil */
 @media(min-width:576px){
     #FotodePerfil{
-        position: static;
-        width: 69%;
+        /* position: static; */
+        /* width: 69%; */
         border-radius: 20%;
         box-shadow: 3px 3px 5px rgb(66, 66, 66);
-        left: 5%;
     }
+
+    /* .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
 }
 @media(max-width:575px){
     #FotodePerfil{
-        position: absolute;
+        /* position: absolute; */
         width: 30%;
         border-radius: 15%;
         box-shadow: 3px 3px 8px rgb(88, 88, 88);

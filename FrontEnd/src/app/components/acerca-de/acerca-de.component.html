@@ -1,15 +1,25 @@
+<div>
+    <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+        Editar persona
+    </button>
+</div>
+
 <div class="row">
+    
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="../../../assets/PhotoPerfil.jpg" class="img-fluid" id="FotodePerfil">
+        <img src={{persona?.img}} class="img-fluid" id="FotodePerfil">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <h4><p id="nombre">{{persona.nombre}} {{persona.apellido}}</p></h4>
+        <h4><p id="nombre">{{persona?.nombre}} {{persona?.apellido}}</p></h4>
         <p class="secondP">Full-Stack Developer Jr</p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 ADM">
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcion">
         <span>
             <h1>Acerca De Mi</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore dolorum ipsa nesciunt nam repellat perspiciatis porro vitae fugiat deserunt laborum vel, eveniet voluptatem cupiditate cumque nobis nemo doloribus nostrum?</p>
+            <p>Soy un apasionado por la tecnología y sus avances, incursioné
+                en la programación tengo conocimientos en Angular y estoy incursionando en el BackEnd,
+                me adapto rápido ante las situaciones y
+                siempre busco soluciones para llegar al objetivo.</p>
         </span>
     </div>
-</div>
+</div>  
